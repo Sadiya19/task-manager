@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.home {
+    position: relative;
+    height: 90vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.menu{
+    position: absolute;
+    background-color: aqua;
+    height: 100vh;
+    display: flex;  
+    flex-direction: column;    
+    justify-content: center;
+    padding: 0 10px;
+}
+.menu ul{
+    padding-left: 0;
+}
+.menu li{
+    /* text-decoration: none; */
+    list-style: none;
+    padding: 10px 0;
+}
+.menu li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
